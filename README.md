@@ -17,20 +17,15 @@ A simple command-line expense tracker application written in Java that allows us
 #How to Run
 1. Compile the Java file:
 javac ExpenseTracker.java
-
 2. Run the application:
 java ExpenseTracker
-java ExpenseTracker
-
 3. Data File Format : The application uses CSV files to store and import transactions.
-
 4. The format is: TYPE,CATEGORY,AMOUNT,DATE,DESCRIPTION Where:
 TYPE: Either "INCOME" or "EXPENSE"
 CATEGORY: One of the predefined categories
 AMOUNT: Numeric amount (e.g., 100.50)
 DATE: Date in format YYYY-MM-DD
 DESCRIPTION: Optional description of the transaction
-
-5.Sample Import File
+5. Sample Import File
 A sample import file sample import.csv file using option 5 in the main menu.
 is included to demonstrate the format. You can import this
